@@ -1,0 +1,70 @@
+@if (userIsLoggedIn){
+    <section class="cartContainer">
+        <div class="row">
+            <div class="col-xs-12">
+                <h4 style="margin: 1.5rem">All returnable orders</h4>
+                <hr>
+
+                @if (userIsLoggedIn) {
+                        @for (order of allOrders; track $index){
+                            <div class="orderid" >
+
+                                <div style="font-weight: bold;">
+                                    <p>Ordernumber: </p>
+                                </div>
+                                {{ order.id }}
+                            </div>
+                            <div class="datumOrder" >
+
+                                <div style="font-weight: bold ">
+                                    <p> OrderDate: </p>
+                                </div>
+                                {{ order.orderDate }}
+                            </div>
+                            @for (orderItem of order.orderItems; track $index){
+
+                            <div class="cartItemContainer">
+
+                                <div class="innerContainer">
+                                    <div id="imgContainer">
+                                        <img src="{{ orderItem.product.imagePath }}" alt="{{ orderItem.product.name }}">
+                                    </div>
+                                </div>
+
+                                <div class="innerContainer" id="info">
+                                    <div style="font-weight: bold;">{{ orderItem.product.name }}</div>
+                                </div>
+
+                                <div class="innerContainer">
+                                    <div style="font-weight: bold;">{{ orderItem.status }}</div>
+                                </div>
+
+                                <div class="innerContainer">
+                                    <div id="price">{{ orderItem.product.price | currency }}</div>
+                                </div>
+
+                                <div class="innerContainer" style="width: 3rem;">
+                                    @if (orderItem.status == "Returning..." ||orderItem.status == "Returned"){
+                                    } @else {
+
+                                    <button (click)="changeData(order, orderItem.product.id, allOrders )"
+                                            [routerLink]="['/returnFormulier']"
+                                            class="return"
+                                            style="cursor: pointer;">Return</button>
+                                    }
+
+                                </div>
+
+                            </div>
+                            <hr>
+                            }
+                        }
+                    }
+
+            </div>
+        </div>
+    </section>
+
+} @else {
+    <p class="text-center">Please log in or register an account to use the returnpage.</p>
+}

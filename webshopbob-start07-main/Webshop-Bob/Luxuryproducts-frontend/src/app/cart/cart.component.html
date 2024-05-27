@@ -1,0 +1,72 @@
+<section class="cartContainer">
+  <div class="row">
+    <div class="col-xs-12">
+      <h4 style="margin: 1.5rem">Shopping Cart</h4>
+      <hr>
+
+      @if (userIsLoggedIn) {
+        @if (cartProducts) {
+          @for (product of cartProducts; track $index){
+          <div class="cartItemContainer">
+  
+            <div class="innerContainer">
+              <div id="imgContainer">
+                <img src="{{ product.imagePath }}" alt="{{ product.name }}">
+              </div>
+            </div>
+  
+            <div class="innerContainer" id="info">
+              <div style="font-weight: bold;">{{ product.name }}</div>
+            </div>
+  
+            <div class="innerContainer" style="width: 3rem;">
+              <i class="fa fa-trash-can" 
+              style="font-size: 2rem; margin-left: 1rem; cursor: pointer; color: black;"
+              (click)="removeProductFromCart($index)"></i>
+            </div>
+  
+            <div class="innerContainer">
+              <div id="price">{{ product.price | currency }}</div>
+            </div>
+           </div>
+          <hr>
+        }}
+        @if (!productsPrice) {
+          <p style="text-align: center; margin: 0;">Your shopping cart is currently empty!</p>
+          <p style="text-align: center;">Have a look at our
+            <a href="/products" style="color: black;">products</a>!</p>
+        }
+      } @else {
+        <p class="text-center">Please log in or register an account to use the shopping cart.</p>
+      }
+
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<div style="display: flex; justify-content: center;">
+  <section class="overviewContainer p-3">
+    <h4 style="margin-bottom: 1rem;">Overview</h4>
+    <div class="overviewItem">
+      <p>Products ({{ cartProducts.length }}):</p> 
+      <p>{{ productsPrice | currency }}</p>
+    </div>
+    <div class="overviewItem">
+      <p>Shipping costs:</p> 
+      <p>{{ shippingCosts | currency }}</p>
+    </div>
+    <hr style="margin: 0.5rem 0;">
+    <div class="overviewItem">
+      @if (cartProducts.length) {
+        <p>Total price:</p> 
+        <p>{{ totalPrice | currency }}</p>
+      }
+    </div>
+    <div style="text-align: center;">
+      <button type="button" class="col-md-8" id="orderButton" 
+      (click)="onPlaceOrder()">Place order</button>
+    </div>
+  </section>
+</div>

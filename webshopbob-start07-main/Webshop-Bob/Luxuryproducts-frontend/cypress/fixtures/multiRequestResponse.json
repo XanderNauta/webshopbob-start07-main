@@ -1,0 +1,94 @@
+[
+  {
+    "id": 3,
+    "product": {
+      "id": 1,
+      "name": "Rolex",
+      "imagePath": "https://schapi-products.s3.eu-central-1.amazonaws.com/3523842/m228238-0061_modelpage_front_facing_landscape.png",
+      "description": "An expensive collectors item",
+      "price": 40000.0,
+      "stock": 0.0
+    },
+    "status": "Returning...",
+    "reason": "broken",
+    "explanation": "",
+    "reserveorderId": "4d459750-ba04-4111-834b-992d1c574509"
+  },
+  {
+    "id": 3,
+    "product": {
+      "id": 1,
+      "name": "Rolex",
+      "imagePath": "https://schapi-products.s3.eu-central-1.amazonaws.com/3523842/m228238-0061_modelpage_front_facing_landscape.png",
+      "description": "An expensive collectors item",
+      "price": 40000.0,
+      "stock": 0.0
+    },
+    "status": "Returning...",
+    "reason": "broken",
+    "explanation": "",
+    "reserveorderId": "12359750-ba04-4111-834b-992d1c574509"
+  },
+  {
+    "id": 3,
+    "product": {
+      "id": 1,
+      "name": "Rolex",
+      "imagePath": "https://schapi-products.s3.eu-central-1.amazonaws.com/3523842/m228238-0061_modelpage_front_facing_landscape.png",
+      "description": "An expensive collectors item",
+      "price": 40000.0,
+      "stock": 0.0
+    },
+    "status": "Returning...",
+    "reason": "broken",
+    "explanation": "",
+    "reserveorderId": "23459750-ba04-4111-834b-992d1c574509"
+  }
+  ,
+  {
+    "id": 3,
+    "product": {
+      "id": 1,
+      "name": "Rolex",
+      "imagePath": "https://schapi-products.s3.eu-central-1.amazonaws.com/3523842/m228238-0061_modelpage_front_facing_landscape.png",
+      "description": "An expensive collectors item",
+      "price": 40000.0,
+      "stock": 0.0
+    },
+    "status": "Returning...",
+    "reason": "broken",
+    "explanation": "",
+    "reserveorderId": "34559750-ba04-4111-834b-992d1c574509"
+  }
+  ,
+  {
+    "id": 3,
+    "product": {
+      "id": 1,
+      "name": "Rolex",
+      "imagePath": "https://schapi-products.s3.eu-central-1.amazonaws.com/3523842/m228238-0061_modelpage_front_facing_landscape.png",
+      "description": "An expensive collectors item",
+      "price": 40000.0,
+      "stock": 0.0
+    },
+    "status": "Returning...",
+    "reason": "broken",
+    "explanation": "",
+    "reserveorderId": "5y559750-ba04-4111-834b-992d1c574509"
+  }
+  , {
+  "id": 3,
+  "product": {
+    "id": 1,
+    "name": "Rolex",
+    "imagePath": "https://schapi-products.s3.eu-central-1.amazonaws.com/3523842/m228238-0061_modelpage_front_facing_landscape.png",
+    "description": "An expensive collectors item",
+    "price": 40000.0,
+    "stock": 0.0
+  },
+  "status": "Returning...",
+  "reason": "broken",
+  "explanation": "",
+  "reserveorderId": "5d659750-ba04-4111-834b-992d1c574509"
+}
+]

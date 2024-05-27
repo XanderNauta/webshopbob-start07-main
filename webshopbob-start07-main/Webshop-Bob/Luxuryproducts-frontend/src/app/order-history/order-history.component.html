@@ -1,0 +1,48 @@
+
+<div class="container" style="margin-bottom: 1rem;">
+    <ul class="list-group">
+        <li class="list-group-item" style="background-color: white; border: 2px solid black;">
+            <div id="customerInfo">
+                <h5>First name: </h5>
+                <p> {{ customer.firstName }} </p>
+                <h5>Last name: </h5>
+                <p> {{ customer.lastName }} </p>
+                <h5>Email: </h5>
+                <p> {{ customer.email }} </p>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<h3 style="text-align: center;">Order history</h3>
+@if (orderList.length != 0) {
+    @for (order of orderList; track $index) {
+        <div class="container" style="margin-bottom: 1rem;">
+            <ul class="list-group">
+                <li class="list-group-item" style="background-color: white; border: 2px solid black;">
+                    Order number: {{ order.id }} <br>
+                    Order status: {{ order.orderStatus }}
+                <hr>
+                @for (orderItem of order.orderItems; track $index) {
+                    <div class="product" style="display: flex; align-items: center; margin-bottom: 0.5rem">
+                        <img style="margin-right: 20px;"
+                        src="{{ orderItem.product.imagePath }}" alt="{{ orderItem.product.name }}">
+                        <div id="name">{{ orderItem.product.name }} | {{orderItem.status}}</div>
+                    </div>
+                }
+                <hr>
+                    Total price: {{ order.totalPrice | currency }}
+                </li>
+            </ul>
+        </div>
+    }
+} @else {
+    <div class="container" style="margin-bottom: 1rem;">
+        <ul class="list-group">
+            <li class="list-group-item" style="background-color: white; border: 2px solid black;">
+                <p style="text-align: center; margin: 10px;">You don't have any previous orders!</p>
+            </li>
+        </ul>
+    </div>
+    }
+

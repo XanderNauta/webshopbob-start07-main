@@ -1,0 +1,39 @@
+<div class="d-flex">
+    <div>
+        <h3 style="margin-right: 3rem;">Products</h3>
+    </div>
+
+    <div class="filter form-group col-md-3">
+        <select class="form-control" (change)="filterBy($event)">
+          <option selected disabled style="font-weight: bolder;">Filter</option>
+          <option>All products</option>
+          <option>Watches</option>
+          <option>Rings</option>
+          <option>Necklaces</option>
+          <option>Accessories</option>
+        </select>
+    </div>
+    
+    <div class="filter form-group col-md-3">
+        <select class="form-control" (change)="SortBy($event)">
+          <option selected disabled style="font-weight: bolder;">Sort</option>
+          <option>Name ASC</option>
+          <option>Name DESC</option>
+          <option>Price ASC</option>
+          <option>Price DESC</option>
+        </select>
+    </div>
+</div>
+
+
+<hr>
+
+@if (loadingProducts){
+<p>Loading products...</p>
+} @else {
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
+    @for (product of loadedProducts; track $index){
+    <app-product-thumbnail [product]="product" [index]="$index" (onBuyProduct)="onBuyProduct(product)"></app-product-thumbnail>
+    }
+    </div>
+}

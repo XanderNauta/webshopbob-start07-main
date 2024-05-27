@@ -1,0 +1,21 @@
+button {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    min-width: 7rem;
+}
+
+button:hover {
+    background-color: #e3e3e3;
+}
+
+button:active {
+    border: 3px solid black;
+}
+
+.card {
+    border: 2px solid black; 
+    margin: 10px; 
+    width: 300px; 
+    height: 420px;
+}

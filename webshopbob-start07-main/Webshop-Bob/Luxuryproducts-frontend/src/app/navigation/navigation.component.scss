@@ -1,0 +1,24 @@
+#navigation {
+    box-shadow: 0 5px 5px 0 gray;
+}
+
+#title {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+#userIcon {
+    font-size: 35px;
+    color: gray;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+    #title {
+        font-size: 1.5rem;
+    }
+
+    #userIcon {
+        margin-right: 0;
+    }
+}

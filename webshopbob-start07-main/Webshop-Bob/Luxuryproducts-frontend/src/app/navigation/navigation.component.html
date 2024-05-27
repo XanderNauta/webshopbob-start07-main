@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="navigation">
+  <div class="container-fluid">
+
+
+    <span class="navbar-brand mb-0 h1" id="title">JewelleryJS</span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" (click)="onToggleMenu()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}"
+            routerLink="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLinkActive]="['active']" routerLink="/products">Products</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" [routerLinkActive]="['active']" routerLink="/cart" id="cart">
+            @if (userIsLoggedIn) {
+              Cart ({{ amountOfProducts }})
+            } @else {
+              Cart
+            }
+          </a>
+        </li>
+
+          @if (userIsLoggedIn && !userIsAdmin){
+              <li class="nav-item">
+              <a class="nav-link" [routerLinkActive]="['active']" routerLink="/return" id="return">
+                      Return
+              </a>
+            </li>
+          } @else if (userIsAdmin){
+              <a class="nav-link" [routerLinkActive]="['active']" routerLink="/returnAdmin" id="requests">
+                  Requests
+              </a>
+          }
+          @else {
+
+          }
+      </ul>
+    </div>
+
+    <div class="dropdown">
+      <a id="dropdownMenu" class="btn" role="button" data-bs-toggle="dropdown">
+        <i class="fa fa-user" id="userIcon"></i>
+      </a>
+      <ul class=" {{ userClass }}" aria-labelledby="dropdownMenu">
+        @if (userIsLoggedIn) {
+          <li><a class="dropdown-item" routerLink="/orders" style="cursor: pointer;">View profile</a></li>
+          <li><a class="dropdown-item" (click)="onLogout()" style="cursor: pointer;">Log out</a></li>
+        } @else {
+          <li><a class="dropdown-item" routerLink="/account/login" style="cursor: pointer;">Login</a></li>
+          <li><a class="dropdown-item" routerLink="/account/register" style="cursor: pointer;">Register</a></li>
+        }
+      </ul>
+    </div>
+
+  </div>
+</nav>

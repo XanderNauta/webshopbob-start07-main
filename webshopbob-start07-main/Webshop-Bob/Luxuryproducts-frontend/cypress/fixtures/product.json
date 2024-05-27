@@ -1,0 +1,40 @@
+[
+  {
+    "id": "d301f8cb-30cf-4e63-a3ee-69ae0b9cfb0c",
+    "orderItems": [
+      {
+        "id": 1,
+        "product": {
+          "id": 1,
+          "name": "Rolex",
+          "imagePath": "https://schapi-products.s3.eu-central-1.amazonaws.com/3523842/m228238-0061_modelpage_front_facing_landscape.png",
+          "description": "An expensive collectors item",
+          "price": 40000.0,
+          "stock": 1.0
+        },
+        "status": "deliverd",
+        "reason": "",
+        "explanation": "",
+        "reserveorderId": "d301f8cb-30cf-4e63-a3ee-69ae0b9cfb0c"
+      },
+      {
+        "id": 2,
+        "product": {
+          "id": 2,
+          "name": "Gold chain",
+          "imagePath": "https://i.ebayimg.com/images/g/8j8AAOSwWktaaFRP/s-l1200.webp",
+          "description": "A big, heavy gold chain",
+          "price": 15000.0,
+          "stock": 1.0
+        },
+        "status": "deliverd",
+        "reason": "",
+        "explanation": "",
+        "reserveorderId": "d301f8cb-30cf-4e63-a3ee-69ae0b9cfb0c"
+      }
+    ],
+    "totalPrice": 0.0,
+    "orderStatus": "Processing...",
+    "orderDate": "2024-05-24"
+  }
+]

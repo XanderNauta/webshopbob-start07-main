@@ -1,0 +1,85 @@
+<div class="row">
+    <div class="col-xs-12">
+
+        <div class="row">
+            <div class="col-xs-12">
+                <h4 style="margin: 1.5rem; text-align: center"> Search for orders in requests</h4>
+                <div style="display: flex; justify-content: center;">
+                    <div style="margin-top: 10px;">
+                        <div class="input-group">
+                            <div class="form-outline" id="search">
+                                <input type="input" class="form-control" placeholder="Search" id="clickhier"
+                                       [(ngModel)]="searchTerm" (keyup)="onSearch()"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 style="margin: 1.5rem">All the requests</h4>
+
+                @for(returnModel of returnModels; track $index){
+
+                <div class="orderid" >
+
+                    <div style="font-weight: bold;">
+                        <p>Ordernumber: </p>
+                    </div>
+                    {{ returnModel.reserveorderId }}
+                </div>
+                <div class="datumOrder" >
+
+                    <div style="font-weight: bold ">
+                        <p> Productnumber: </p>
+                    </div>
+                    {{ returnModel.product?.id }}: {{returnModel.product?.name}}
+                </div>
+                    <div class="datumOrder" >
+
+                        <div style="font-weight: bold ">
+                            <p> Reason : </p>
+                        </div>
+                        {{ returnModel.reason }}
+                    </div>
+                    <div class="datumOrder" >
+
+                        <div style="font-weight: bold ">
+                            <p> Explanation: </p>
+                        </div>
+                        {{ returnModel.explanation }}
+                    </div>
+                    <div class="innerContainer" style="width: 3rem;">
+
+                        <button
+                                (click)="toStock(returnModel.product?.id, returnModel.reserveorderId,
+                                returnModel.reason, returnModel.explanation)"
+                                class="btn btn-success"
+                                    style="cursor: pointer;">
+                            Accept to stock
+                        </button>
+                        <br>
+
+                        <button
+                                (click)="acceptReturn(returnModel.product?.id, returnModel.reserveorderId,
+                                returnModel.reason, returnModel.explanation)"
+                                class="btn btn-primary"
+                                style="cursor: pointer; margin: 3px ">
+                            Accept not to stock
+                        </button>
+                        <br>
+                        <button
+                                (click)="declineReturn(returnModel.product?.id, returnModel.reserveorderId,
+                                returnModel.reason, returnModel.explanation)"
+                                class="btn btn-danger"
+                                style="cursor: pointer;">
+                            Decline return
+                        </button>
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>

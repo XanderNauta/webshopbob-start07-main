@@ -1,0 +1,17 @@
+.sortBtn {
+    border: 1px solid black;
+}
+
+.filter {
+    margin-left: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .filter {
+        width: 75%;
+    }
+}
