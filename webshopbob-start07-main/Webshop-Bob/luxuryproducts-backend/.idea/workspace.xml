@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90f32b51-0304-4e20-916d-cb639499c4c7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/utils/Seeder.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2g97v0c4oQegK8G7WYEqYOJme4o" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.TestOrderDAO.executor": "Run",
+    "JUnit.TestOrderDAO.should_return_List_of_returnableOrders_within_30_days.executor": "Run",
+    "JUnit.TestretourDAO.executor": "Run",
+    "JUnit.TestretourDAO.shouldReturnItemSuccessfully.executor": "Run",
+    "JUnit.TestretourDAO.shouldThrowExceptionWhenOrderNotFound.executor": "Run",
+    "JUnit.TestretourDAO.should_Accept_AcceptReturn_Successfully_and_not_toStock.executor": "Run",
+    "JUnit.TestretourDAO.should_Accept_Accept_Successfully_and_not_toStock.executor": "Run",
+    "JUnit.TestretourDAO.should_Accept_ToStock_Successfully.executor": "Run",
+    "JUnit.TestretourDAO.should_Return_Item_Decline_Successfully.executor": "Run",
+    "JUnit.TestretourDAO.should_Throw_Exception_When_OrderItem_Not_Found_In_acceptReturn.executor": "Run",
+    "JUnit.TestretourDAO.should_Throw_Exception_When_return_didnot_go_as_planned.executor": "Run",
+    "JUnit.TestretourDAO.should_return_list_of_items_with_status_returning.executor": "Run",
+    "Maven.webshop [clean,package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.WebshopApplication.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/xande/OneDrive - Hogeschool Leiden/INSOFAD/webshopbob-bob/webshopbob-start07-main/webshopbob-start07-main/luxuryproducts-backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestOrderDAO.should_return_List_of_returnableOrders_within_30_days">
+    <configuration name="TestOrderDAO.should_return_List_of_returnableOrders_within_30_days" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juwelier.webshop.DAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.juwelier.webshop.DAO" />
+      <option name="MAIN_CLASS_NAME" value="com.juwelier.webshop.DAO.TestOrderDAO" />
+      <option name="METHOD_NAME" value="should_return_List_of_returnableOrders_within_30_days" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestretourDAO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juwelier.webshop.DAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.juwelier.webshop.DAO" />
+      <option name="MAIN_CLASS_NAME" value="com.juwelier.webshop.DAO.TestretourDAO" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestretourDAO.should_Accept_AcceptReturn_Successfully_and_not_toStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juwelier.webshop.DAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.juwelier.webshop.DAO" />
+      <option name="MAIN_CLASS_NAME" value="com.juwelier.webshop.DAO.TestretourDAO" />
+      <option name="METHOD_NAME" value="should_Accept_AcceptReturn_Successfully_and_not_toStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestretourDAO.should_Accept_ToStock_Successfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juwelier.webshop.DAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.juwelier.webshop.DAO" />
+      <option name="MAIN_CLASS_NAME" value="com.juwelier.webshop.DAO.TestretourDAO" />
+      <option name="METHOD_NAME" value="should_Accept_ToStock_Successfully" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestretourDAO.should_Throw_Exception_When_OrderItem_Not_Found_In_acceptReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juwelier.webshop.DAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.juwelier.webshop.DAO" />
+      <option name="MAIN_CLASS_NAME" value="com.juwelier.webshop.DAO.TestretourDAO" />
+      <option name="METHOD_NAME" value="should_Throw_Exception_When_OrderItem_Not_Found_In_acceptReturn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebshopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="webshop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.juwelier.webshop.WebshopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestOrderDAO.should_return_List_of_returnableOrders_within_30_days" />
+        <item itemvalue="JUnit.TestretourDAO" />
+        <item itemvalue="JUnit.TestretourDAO.should_Accept_AcceptReturn_Successfully_and_not_toStock" />
+        <item itemvalue="JUnit.TestretourDAO.should_Accept_ToStock_Successfully" />
+        <item itemvalue="JUnit.TestretourDAO.should_Throw_Exception_When_OrderItem_Not_Found_In_acceptReturn" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-16.0.2-corretto-16.0.2-4caba194b151-cab9e76a" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-51586f01" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90f32b51-0304-4e20-916d-cb639499c4c7" name="Changes" comment="" />
+      <created>1715098167181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715098167181</updated>
+      <workItem from="1715098168205" duration="1309000" />
+      <workItem from="1715676193623" duration="5531000" />
+      <workItem from="1715688601506" duration="1346000" />
+      <workItem from="1715689964779" duration="1227000" />
+      <workItem from="1715755259350" duration="5374000" />
+      <workItem from="1715761512923" duration="7831000" />
+      <workItem from="1715783373113" duration="114000" />
+      <workItem from="1715784670872" duration="1308000" />
+      <workItem from="1715795754689" duration="37202000" />
+      <workItem from="1716107560505" duration="300000" />
+      <workItem from="1716107871624" duration="14500000" />
+      <workItem from="1716189616243" duration="12274000" />
+      <workItem from="1716318357577" duration="1639000" />
+      <workItem from="1716378849726" duration="9032000" />
+      <workItem from="1716452243461" duration="6580000" />
+      <workItem from="1716498489033" duration="34000" />
+      <workItem from="1716534925277" duration="10322000" />
+      <workItem from="1716659745105" duration="602000" />
+      <workItem from="1716665904777" duration="205000" />
+      <workItem from="1716666772419" duration="651000" />
+      <workItem from="1716709091469" duration="11448000" />
+      <workItem from="1716793815786" duration="836000" />
+      <workItem from="1716797995873" duration="194000" />
+      <workItem from="1716798842740" duration="605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/AuthController.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/AuthController.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/AuthController.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/AuthController.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/AuthController.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/AuthController.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/AuthController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/AuthController.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/AuthController.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/ProductController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/ProductController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/ProductController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/ProductController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/ProductController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/ProductController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/ProductController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/ProductController.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/CategoryController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/CategoryController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/CategoryController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/CategoryController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/CategoryController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/CategoryController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/CategoryController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/CategoryController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/CategoryController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/CategoryController.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>33</line>
+          <properties class="com.juwelier.webshop.controllers.retourController" method="getAllRequests">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/AuthController.java</url>
+          <line>78</line>
+          <properties class="com.juwelier.webshop.controllers.AuthController" method="login">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/AuthController.java</url>
+          <line>43</line>
+          <properties class="com.juwelier.webshop.controllers.AuthController" method="register">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>27</line>
+          <properties class="com.juwelier.webshop.controllers.retourController" method="getRetours">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>38</line>
+          <properties class="com.juwelier.webshop.controllers.retourController" method="returnItem">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>47</line>
+          <properties class="com.juwelier.webshop.controllers.retourController" method="acceptToStock">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>53</line>
+          <properties class="com.juwelier.webshop.controllers.retourController" method="acceptReturn">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/retourController.java</url>
+          <line>59</line>
+          <properties class="com.juwelier.webshop.controllers.retourController" method="declineReturn">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/ProductController.java</url>
+          <line>22</line>
+          <properties class="com.juwelier.webshop.controllers.ProductController" method="getAllProducts">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>29</line>
+          <properties class="com.juwelier.webshop.controllers.OrderController" method="getProduct">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>34</line>
+          <properties class="com.juwelier.webshop.controllers.OrderController" method="placeOrder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>40</line>
+          <properties class="com.juwelier.webshop.controllers.OrderController" method="updateOrder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>46</line>
+          <properties class="com.juwelier.webshop.controllers.OrderController" method="completeOrder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>52</line>
+          <properties class="com.juwelier.webshop.controllers.OrderController" method="deleteOrder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/OrderController.java</url>
+          <line>23</line>
+          <properties class="com.juwelier.webshop.controllers.OrderController" method="getOrders">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/ProductController.java</url>
+          <line>27</line>
+          <properties class="com.juwelier.webshop.controllers.ProductController" method="getProduct">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/CategoryController.java</url>
+          <line>27</line>
+          <properties class="com.juwelier.webshop.controllers.CategoryController" method="getCategory">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/CategoryController.java</url>
+          <line>32</line>
+          <properties class="com.juwelier.webshop.controllers.CategoryController" method="createCategory">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/CategoryController.java</url>
+          <line>38</line>
+          <properties class="com.juwelier.webshop.controllers.CategoryController" method="updateProduct">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/juwelier/webshop/controllers/CategoryController.java</url>
+          <line>44</line>
+          <properties class="com.juwelier.webshop.controllers.CategoryController" method="deleteCategory">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/juwelier/webshop/DAO/TestretourDAO.java</url>
+          <line>145</line>
+          <properties class="com.juwelier.webshop.DAO.TestretourDAO" method="should_Accept_AcceptReturn_Successfully_and_not_toStock">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

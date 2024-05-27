@@ -1,0 +1,67 @@
+# Docker Compose file Reference (https://docs.docker.com/compose/compose-file/)
+version: '3'
+#
+#Define services
+services:
+
+#  postgres:
+#    image: postgres:16
+#    environment:
+#      POSTGRES_DB: postgres
+#      POSTGRES_USER: postgres
+#      POSTGRES_PASSWORD: postgres
+#      PGDATA: /var/lib/postgresql/data
+#    volumes:
+#      - ./postgres-data:/var/lib/postgresql/data
+#    ports:
+#      - "9000:5432"
+
+  postgresdb:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=luxuryproductsbob
+    ports:
+      - 5432:5432
+#    volumes:
+#      - postgresdb:/var/lib/postgres
+
+
+  #Back-end Spring Boot Application
+  luxuryproducts-backend:
+    #The docker file in scrum-app build the jar and provides the docker image with the following name.
+    build: ./luxuryproducts-backend
+    container_name: luxuryproducts-backend
+
+    #Environment variables for Spring Boot Application.
+    environment:
+      SPRING_APPLICATION_JSON: '{
+      "spring.datasource.url"  : "jdbc:postgresql://postgresdb:5432/luxuryproductsbob",
+      "spring.datasource.username" : "postgres",
+      "spring.datasource.password" : "postgres",
+      "spring.jpa.properties.hibernate.dialect" : "org.hibernate.dialect.PostgreSQLDialect",
+      "spring.jpa.hibernate.ddl-auto" : "create-drop"
+      }'
+    ports:
+      - 8080:8080 # Forward the exposed port 8080 on the container to port 8080 on the host machine
+    depends_on:
+      - postgresdb
+  #Fron-end Angular Application
+
+  luxuryproducts-frontend:
+    container_name: luxuryproducts-frontend
+    build:
+      context: ./luxuryproducts-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "4200:80"
+    #    links:
+#      - luxuryproducts-backend
+  redis:
+    image: "redis:alpine"
+
+#Volumes for DB data
+volumes:
+  scrum-data:
